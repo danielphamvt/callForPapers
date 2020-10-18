@@ -731,10 +731,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #speakers .speaker img {
   border-radius: 100%;
+  border:3px solid #f82249;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
 }
 #speakers .speaker .details {
-  background: rgba(6, 12, 34, 0.76);
-  position: absolute;
+  background: rgba(6, 12, 34, 0.56);
+  position: relative;
   left: 0;
   bottom: -30px;
   right: 0;
@@ -745,14 +749,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #speakers .speaker .details h3 {
   color: #fff;
-  font-size: 22px;
+  font-size: 16px;
   font-weight: 600;
   margin-bottom: 5px;
 }
 
 #speakers .speaker .details p {
   color: #fff;
-  font-size: 15px;
+  font-size: 14px;
   margin-bottom: 10px;
   font-style: italic;
 }
